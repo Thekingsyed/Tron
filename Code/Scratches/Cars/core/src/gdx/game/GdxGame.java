@@ -16,7 +16,7 @@ public class GdxGame extends ApplicationAdapter {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
+		img = new Texture("car.png");
 		sprite = new Sprite(img);
 		sprite.setPosition(Gdx.graphics.getWidth()/2 - sprite.getWidth()/2,
 				Gdx.graphics.getHeight()/2 - sprite.getHeight()/2);
